@@ -1,0 +1,177 @@
+body{
+    margin:0;
+    padding:0;
+    background-color: black;
+}
+
+header{
+    margin:1%;
+    height:100px;
+    width:98%;
+    background-color: white;
+}
+
+.Hcontent{
+   position: absolute;
+   height:100px;
+   width:98%;
+   border: 1px solid black;
+}
+
+.namelogo{
+    height:80px;
+    border-radius: 50px;
+    margin-left: 2%;
+    margin-top: 1%;
+}
+
+
+nav{
+    display:flex;
+    width:97%;
+    align-items: center; /* content are align in centre of div height */
+    justify-content:space-between; /* make distance between two content on div */
+}
+
+.list{
+    display: inline-block;
+    list-style: none; /* to avoid the mark */
+    margin:10px 10px;
+    font-size: 21px;
+    
+}
+
+.list a{
+  text-decoration: none;
+  color: black;
+}
+
+ 
+
+/* body part css container1*/
+
+.maincontainer{
+    height:400px;
+}
+
+#container1{
+    /* border:1px solid red; */
+    position: absolute;
+    height:300px;
+    width:40%;
+    float: left;
+    margin-left: 5%;
+    margin-top: 2%;
+    background-color: white;
+    box-shadow: 10px 5px 10px rgb(198, 169, 169);
+}
+
+#container1 h2{
+    font-size: 40px;
+    padding-left: 3%;
+    font-family:Arial, Helvetica, sans-serif;
+     color: black;
+     line-height: 10px;
+     padding-top: 4%;
+}
+
+#container1 span{
+    color: rgb(221, 221, 50);
+}
+
+#container1 p {
+    color:#555;
+    line-height: 25px;
+    padding-left:4% ;
+}
+
+#container1 a{
+    
+    margin-left: 15%;
+    font-size: 21px;
+    text-decoration: none;
+    background-color: black;
+    color: aliceblue;
+    border-radius: 5px;
+    font-weight: bold;
+    display: inline-block;
+    box-shadow: 10px 5px 10px gray;
+    
+}
+
+#socialicon{
+    height: 60px;
+    width:30%;
+    /* border: 1px solid red; */
+    margin-left: 15%;
+    margin-top: 3%;
+    display: flex;
+}
+
+#socialicon img{
+    height:60px;
+    width:60px;
+    /* justify-content: space-between; */
+    
+   
+}
+
+#socialicon a{
+    color: blue;
+    margin-right: 6%;
+    margin-left: 5%;
+    background-color:remove;
+
+}
+
+
+/* body part css container2 */
+
+#container2{
+    height:350px;
+    width:40%;
+    /* border:1px solid red; */
+    float: right;
+    margin-right: 5%;
+    background-color: black;
+    box-shadow: 10px 10px 5px gray;
+    /* border-left: 1px solid white; */
+    /* border-top: 1px solid white; */
+}
+
+.backimage{
+    height:350px;
+    width:80%;
+    margin-left:15%;
+    background-color: black;
+}
+
+.myimage{
+    height:200px;
+    width:auto;
+    transform: translateX(-270%);
+    transition: bottom 1s, left 1s;
+    bottom: 31%;
+    border-radius: 95px;
+    position: absolute;
+}
+
+.backimage:hover{
+    right:50%;
+}
+.myimage{
+    left:70%;
+}
+
+footer{
+    height:80px;
+    width:95%;
+    background-color: white;
+    margin-left: 3%;
+
+}
+footer h2{
+    text-align: center;
+    padding-top: 2%;
+}
+
